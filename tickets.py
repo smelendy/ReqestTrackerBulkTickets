@@ -8,7 +8,7 @@ import logging
 set_logging('debug')
 logger = logging.getLogger('rtkit')
 import csv
-resource = RTResource('http://localhost/REST/1.0/', 'smelendy', 'ki11ercars', CookieAuthenticator)
+resource = RTResource('http://localhost/REST/1.0/', 'username', 'passwoed', CookieAuthenticator)
 with open('tickets.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     for row in readCSV:
