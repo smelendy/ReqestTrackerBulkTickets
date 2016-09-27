@@ -27,7 +27,7 @@ with open(filecsv) as csvfile:
                         'Owner': ('%s' % row[6]),
                 	'Starts': ('%s' % row[7]),
                 	'Due': ('%s' % row[8]), 
-			'CF.{Jira Request}': ('%s' % row[9]),
+			'CF.{Jira}': ('%s' % row[9]),
         	}
 	}
 
